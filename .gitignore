@@ -1,5 +1,6 @@
 node_modules/
 *.zip
+.git
 !.gitignore
 !index.js
 !package.json

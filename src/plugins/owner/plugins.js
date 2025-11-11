@@ -27,7 +27,7 @@ cmd.add({
                         if (fileStat.isDirectory()) {
                             await getAllTsFiles(filePath, fileList);
                         }
-                        else if (file.endsWith('.ts')) {
+                        else if (file.endsWith('.js')) {
                             fileList.push(filePath.replace(PLUGINS_DIR + '/', ''));
                         }
                     }
