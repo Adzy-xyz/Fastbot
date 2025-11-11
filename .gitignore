@@ -1,0 +1,10 @@
+node_modules/
+*.zip
+!.gitignore
+!index.js
+!package.json
+!package-lock.json
+!src/
+!src/**
+baileys_auth_info/
+.env
